@@ -1,0 +1,26 @@
+# Local secrets and runtime state
+bridge-config.json
+*.local.json
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+maintenance/
+runtime/
+state/
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

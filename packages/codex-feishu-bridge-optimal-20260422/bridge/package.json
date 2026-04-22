@@ -1,0 +1,10 @@
+{
+  "name": "codex-feishu-bridge-runtime",
+  "private": true,
+  "version": "2026.4.22",
+  "type": "commonjs",
+  "description": "Runtime files for the Codex Desktop to Feishu bridge",
+  "dependencies": {
+    "better-sqlite3": "^12.8.0"
+  }
+}

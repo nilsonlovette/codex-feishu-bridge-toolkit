@@ -1,0 +1,16 @@
+{
+  "name": "codex-feishu-bridge-sidecar",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Feishu private-chat sidecar for the Codex desktop bridge",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test index.node.test.js mermaid-renderer.node.test.js"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.49.0",
+    "mermaid": "^11.14.0",
+    "puppeteer-core": "^24.41.0"
+  }
+}

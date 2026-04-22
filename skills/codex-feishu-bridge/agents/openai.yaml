@@ -1,0 +1,6 @@
+interface:
+  display_name: "Codex Feishu Bridge"
+  short_description: "Operate, diagnose, slim, and restart a local Codex-Feishu bridge safely."
+  default_prompt: "Use $codex-feishu-bridge to validate my local Codex-to-Feishu bridge, including binding, CardKit delivery, SQLite state, and controlled restart recovery."
+policy:
+  allow_implicit_invocation: true

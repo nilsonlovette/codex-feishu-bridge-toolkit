@@ -1,0 +1,54 @@
+{
+  "enabled": false,
+  "appId": "cli_xxx",
+  "appSecret": "xxx",
+  "encryptKey": "",
+  "verificationToken": "",
+  "allowlistOpenIds": [
+    "ou_xxx"
+  ],
+  "defaultOpenId": "ou_xxx",
+  "sidecarNodePath": "",
+  "sidecarMode": "long-connection",
+  "longConnection": {
+    "enabled": true,
+    "idleReconnectMs": 5000
+  },
+  "diagnosticsHttp": {
+    "enabled": false,
+    "host": "127.0.0.1",
+    "port": 47631
+  },
+  "userIdentitySend": {
+    "enabled": true,
+    "authHost": "127.0.0.1",
+    "authPort": 47631,
+    "startPath": "/oauth/start",
+    "callbackPath": "/oauth/callback",
+    "statusPath": "/oauth/status",
+    "prompt": "consent",
+    "scope": "im:message im:message.send_as_user im:resource offline_access"
+  },
+  "assistantCard": {
+    "streamingBackend": "cardkit",
+    "patchPlaybackTickMs": 250,
+    "cardkit": {
+      "enabled": true,
+      "elementId": "main_md",
+      "progressElementId": "think_md",
+      "toolElementId": "tools_md",
+      "finalElementId": "final_md",
+      "printFrequencyMs": 30,
+      "printStep": 1,
+      "printStrategy": "delay"
+    }
+  },
+  "runtime": {
+    "pollIntervalMs": 2000,
+    "staleBindingMs": 15000,
+    "submitTimeoutMs": 5000,
+    "focusedIdleNativePollMs": 12000,
+    "activeNativePollMs": 1000,
+    "postSubmitFastWindowMs": 15000
+  }
+}
